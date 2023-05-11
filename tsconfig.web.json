@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJS",
+        "outDir": "dist",
+        "alwaysStrict": true,
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "declaration": false,
+        "downlevelIteration": true,
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.js"
+    ],
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/tests/"
+    ]
+}
